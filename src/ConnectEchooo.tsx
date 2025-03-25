@@ -10,7 +10,7 @@ const ConnectEchooo: React.FC = () => {
         } 
         
         else if (userAgent.includes('iphone') || userAgent.includes('ipad') || userAgent.includes('ipod')) {
-            window.open('https://echooo.valleysound.xyz/vss/ton-connect', '_blank');
+            window.open('https://api.valleysound.xyz/vss', '_blank');
         } 
         // 默认情况
         else {
